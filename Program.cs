@@ -25,7 +25,7 @@ Console.Write("Please, input the third integer: ");
 int num3 = Convert.ToInt32(Console.ReadLine());
 int max = num1;
 
-if(num1 == num2 || num1 == num3 || num2 == 3) 
+if(num1 == num2 || num1 == num3 || num2 == num3) 
     Console.WriteLine("Try to input the numbers so that they don't repeat, bro. Don't give up.");
 else
 {
